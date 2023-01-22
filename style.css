@@ -1,0 +1,414 @@
+/*************************** TAG SELECTOR ***********************************/
+body {
+    background-color: #E8EAE6;
+    margin: 3px;
+}
+
+h1 {
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 40px;
+    padding-top: 35px;
+    color: #041C32;
+    display: block;
+}
+
+span {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/******************************* CLASS SELECTOR ***********************************/
+.image {
+    height: 80px;
+    width: 80px;
+    border-style: solid;
+    border-color: #236579;
+    border-radius: 50%;
+    display: inline;
+}
+
+.container2 {
+    text-align: center;
+}
+
+.container1 {
+    cursor: pointer;
+}
+
+.table1 {
+    margin-left: 330px;
+    margin-top: 80px;
+}
+
+.table2 {
+    margin-left: 110px;
+    margin-top: 80px;
+}
+
+.table3 {
+    margin-left: 380px;
+    margin-top: 80px;
+}
+
+.table4 {
+    margin-left: 110px;
+    margin-top: 80px;
+}
+
+.table5 {
+    margin-left: 410px;
+    margin-top: 80px;
+}
+
+.table6 {
+    margin-left: 120px;
+    margin-top: 80px;
+}
+.table7 {
+    margin-left: 410px;
+    margin-top: 80px;
+}
+.table8 {
+    margin-left: 120px;
+    margin-top: 80px;
+}
+.table9 {
+    margin-left: 410px;
+    margin-top: 80px;
+}
+.table10 {
+    margin-left: 120px;
+    margin-top: 80px;
+}
+
+.link {
+    color: #041C32;
+    text-decoration: none;
+}
+
+.heading2 {
+    font-family: 'Cinzel', serif;
+    font-size: 30px;
+    color: #04293A;
+    margin-left: 100px;
+    font-weight: bold;
+    transition-property: font-size;
+    transition-duration: 0.2s;
+    transition-delay: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+
+.heading2:hover {
+    text-decoration: underline;
+    font-size: 33px;
+}
+
+.heading3 {
+    font-family: 'Cinzel', serif;
+    font-size: 30px;
+    color: #04293A;
+    margin-left: 20px;
+    position: absolute;
+    top: 1020px;
+    font-weight: bold;
+    transition-property: font-size;
+    transition-duration: 0.2s;
+    transition-delay: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+
+.heading3:hover {
+    text-decoration: underline;
+    font-size: 33px;
+}
+
+.heading4 {
+    font-family: 'Cinzel', serif;
+    font-size: 30px;
+    color: #04293A;
+    margin-left: 50px;
+    position: absolute;
+    top: 1340px;
+    font-weight: bold;
+    transition-property: font-size;
+    transition-duration: 0.2s;
+    transition-delay: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+
+.heading4:hover {
+    text-decoration: underline;
+    font-size: 33px;
+}
+
+.heading5 {
+    font-family: 'Cinzel', serif;
+    font-size: 36px;
+    color: #04293A;
+    font-weight: light;
+    margin-left: 30px;
+    position: absolute;
+    top: 1660px;
+    transition-property: font-size;
+    transition-duration: 0.2s;
+    transition-delay: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+
+.heading5:hover {
+    text-decoration: underline;
+    font-size: 39px;
+}
+
+.heading6 {
+    font-family: 'Cinzel', serif;
+    color: #041C32;
+    font-size: 30px;
+    margin-left: 25px;
+    position: absolute;
+    top: 2010px;
+    transition-property: font-size;
+    transition-duration: 0.2s;
+    transition-delay: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+
+.heading6:hover {
+    text-decoration: underline;
+    font-size: 33px;
+}
+
+.heading7 {
+    font-family: 'Cinzel', serif;
+    color: #041C32;
+    font-size: 30px;
+    margin-left: 25px;
+    position: absolute;
+    top: 2340px;
+    transition-property: font-size;
+    transition-duration: 0.2s;
+    transition-delay: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+
+.heading7:hover {
+    text-decoration: underline;
+    font-size: 33px;
+}
+
+.heading8 {
+    font-family: 'Cinzel', serif;
+    color: #041C32;
+    font-size: 30px;
+    margin-left: 25px;
+    position: absolute;
+    top: 2650px;
+    transition-property: font-size;
+    transition-duration: 0.2s;
+    transition-delay: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+
+.heading8:hover {
+    text-decoration: underline;
+    font-size: 33px;
+}
+.heading9 {
+    font-family: 'Cinzel', serif;
+    color: #041C32;
+    font-size: 30px;
+    margin-left: 25px;
+    position: absolute;
+    top: 2980px;
+    transition-property: font-size;
+    transition-duration: 0.2s;
+    transition-delay: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+
+.heading9:hover {
+    text-decoration: underline;
+    font-size: 33px;
+}.heading10 {
+    font-family: 'Cinzel', serif;
+    color: #041C32;
+    font-size: 30px;
+    margin-left: 25px;
+    position: absolute;
+    top: 3290px;
+    transition-property: font-size;
+    transition-duration: 0.2s;
+    transition-delay: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+
+.heading10:hover {
+    text-decoration: underline;
+    font-size: 33px;
+}.heading11 {
+    font-family: 'Cinzel', serif;
+    color: #041C32;
+    font-size: 30px;
+    margin-left: 25px;
+    position: absolute;
+    top: 3640px;
+    transition-property: font-size;
+    transition-duration: 0.2s;
+    transition-delay: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+
+.heading11:hover {
+    text-decoration: underline;
+    font-size: 33px;
+}
+
+.para1 {
+    font-size: 20px;
+    margin-left: 100px;
+    font-family: 'Nanum Myeongjo', serif;
+    line-height: 25px;
+}
+
+.para2 {
+    font-size: 20px;
+    margin-left: 20px;
+    padding-top: 50px;
+    font-family: 'Nanum Myeongjo', serif;
+    line-height: 25px;
+}
+
+.para3 {
+    font-size: 20px;
+    margin-left: 50px;
+    font-family: 'Nanum Myeongjo', serif;
+    line-height: 25px;
+    padding-top: 30px;
+}
+
+.para4 {
+    font-size: 20px;
+    margin-left: 25px;
+    font-family: 'Nanum Myeongjo', serif;
+    line-height: 25px;
+    padding-top: 10px;
+}
+
+.para5 {
+    font-size: 20px;
+    margin-left: 25px;
+    font-family: 'Nanum Myeongjo', serif;
+    line-height: 25px;
+    padding-top: 50px;
+}
+
+.para6 {
+    font-size: 20px;
+    margin-left: 25px;
+    font-family: 'Nanum Myeongjo', serif;
+    line-height: 25px;
+    margin-top: 80px;
+}
+
+.para7 {
+    font-size: 20px;
+    margin-left: 25px;
+    font-family: 'Nanum Myeongjo', serif;
+    line-height: 25px;
+    margin-top: 80px;
+}
+.para8 {
+    font-size: 20px;
+    margin-left: 25px;
+    font-family: 'Nanum Myeongjo', serif;
+    line-height: 25px;
+    margin-top: 60px;
+}
+.para9 {
+    font-size: 20px;
+    margin-left: 25px;
+    font-family: 'Nanum Myeongjo', serif;
+    line-height: 25px;
+    margin-top: 80px;
+}
+.para10 {
+    font-size: 20px;
+    margin-left: 25px;
+    font-family: 'Nanum Myeongjo', serif;
+    line-height: 25px;
+    margin-top: 80px;
+}
+
+
+
+
+.img1 {
+    height: 230px;
+    width: 250px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #04293A;
+    margin-left: 40px;
+
+
+}
+.last {
+    background-color: #555555;
+    text-align: center;
+    padding-bottom: 1px;
+    padding-top: 1px;
+
+}
+
+
+/****************************** ID SELECTOR ***************************************/
+#heading1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    color: #236579;
+    position: absolute;
+    left: 80px;
+    top: 30px;
+    font-size: 27px;
+    text-shadow: 4px 2px 5px grey;
+}
+
+#line {
+    width: 90%;
+    border-color: #555555;
+    border-style: solid;
+}
+
+#a {
+    color: #236579;
+    text-decoration: none;
+}
+
+#unis {
+    font-size: 20px;
+    line-height: 27px;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    color: #04293A;
+    transition-property: font-size;
+    transition-duration: 0.2s;
+    transition-delay: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+
+#unis:hover {
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+#waniya {
+    border-style: solid;
+    border-color: #04293A;
+    box-shadow: 5px 3px 5px #555555;
+    margin-top: 20px;
+}
+
+#span {
+    text-decoration: none;
+}
